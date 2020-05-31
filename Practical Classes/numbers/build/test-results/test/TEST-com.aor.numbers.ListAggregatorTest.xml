@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aor.numbers.ListAggregatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-03-30T12:48:00" hostname="joaocarlosmrp-Lenovo-ideapad-330-15ICH" time="0.003">
+  <properties/>
+  <testcase name="max" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
+  <testcase name="min" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
+  <testcase name="sum" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
+  <testcase name="max2" classname="com.aor.numbers.ListAggregatorTest" time="0.0"/>
+  <testcase name="distinct" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
+  <testcase name="distinct2" classname="com.aor.numbers.ListAggregatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

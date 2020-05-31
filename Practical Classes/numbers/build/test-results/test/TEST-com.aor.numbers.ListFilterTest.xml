@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aor.numbers.ListFilterTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-03-30T12:48:00" hostname="joaocarlosmrp-Lenovo-ideapad-330-15ICH" time="0.028">
+  <properties/>
+  <testcase name="acceptDivisible" classname="com.aor.numbers.ListFilterTest" time="0.0"/>
+  <testcase name="filter" classname="com.aor.numbers.ListFilterTest" time="0.025"/>
+  <testcase name="acceptZero" classname="com.aor.numbers.ListFilterTest" time="0.0"/>
+  <testcase name="acceptPositive" classname="com.aor.numbers.ListFilterTest" time="0.001"/>
+  <testcase name="acceptNegative" classname="com.aor.numbers.ListFilterTest" time="0.0"/>
+  <testcase name="acceptNotDivisible" classname="com.aor.numbers.ListFilterTest" time="0.0"/>
+  <testcase name="acceptZero2" classname="com.aor.numbers.ListFilterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
