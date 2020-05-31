@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="View.GameScreenTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-31T22:09:04" hostname="joaocarlosmrp-Lenovo-ideapad-330-15ICH" time="0.005">
+  <properties/>
+  <testcase name="fetchHighscores" classname="View.GameScreenTest" time="0.003"/>
+  <testcase name="AddHighscores" classname="View.GameScreenTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Controller.TicksTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-31T22:09:05" hostname="joaocarlosmrp-Lenovo-ideapad-330-15ICH" time="0.0">
+  <properties/>
+  <testcase name="testTicks" classname="Controller.TicksTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

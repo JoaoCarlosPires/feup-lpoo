@@ -1,0 +1,15 @@
+The goal is to drop bombs and kill
+all the enemies with the explosion!
+
+Bombs explode after 3 seconds and
+the explosion lasts a second.
+
+There are upgrades in the map.
+Pick them up for extra surprises!
+
+Controls:
+
+ARROWS - Move
+B      - Place Bomb
+P      - Pause
+Q      - Quit Game

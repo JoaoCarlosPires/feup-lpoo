@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Controller.FileReaderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-31T22:09:05" hostname="joaocarlosmrp-Lenovo-ideapad-330-15ICH" time="0.652">
+  <properties/>
+  <testcase name="testFileReadingInstructions" classname="Controller.FileReaderTest" time="0.606"/>
+  <testcase name="testSaveHighscore" classname="Controller.FileReaderTest" time="0.001"/>
+  <testcase name="testFileReadingHighScore" classname="Controller.FileReaderTest" time="0.045"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

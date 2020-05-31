@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Model.GamePiece" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-31T22:09:05" hostname="joaocarlosmrp-Lenovo-ideapad-330-15ICH" time="0.003">
+  <properties/>
+  <testcase name="SetGetPosition" classname="Model.GamePiece" time="0.001"/>
+  <testcase name="MovePositionX" classname="Model.GamePiece" time="0.0"/>
+  <testcase name="MovePositionY" classname="Model.GamePiece" time="0.0"/>
+  <testcase name="SetPosition" classname="Model.GamePiece" time="0.001"/>
+  <testcase name="InitialPosition" classname="Model.GamePiece" time="0.0"/>
+  <testcase name="MovePositionXY" classname="Model.GamePiece" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
