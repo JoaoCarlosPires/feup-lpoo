@@ -11,6 +11,7 @@
 - O código do Order está sempre a chamar métodos do product da line (Feature Envy)
 
 (Eduardo Correia)
+
 **Dispensable** (Data Class) - `OrderLine` apenas serve para guardar dados 
 **Dispensable** (Duplicate Code) - Ciclo `for` em `printOrder()` repetido  
 **Dispensable** (Duplicate Code) - `if...else` pode ser convertido num único `return`   
@@ -33,6 +34,7 @@ Object-Orientation Abusers - Switch Statements
 - Neste caso, os testes teriam de ser alterados, na medida em que a inicialização de um Retângulo ou de um Círculo teria de ser feita de forma diferente da default. Ou seja, sempre que aparece algo do género: Shape rectangle = new Shape(5, 5, 10, 20); Deve passar a ser: Shape rectangle = new ShapeRectangle(5, 5, 10, 20); E o mesmo para circle.
 
 (Eduardo Correia)
+
 **Dispensables** Comentários excessivos nos atributos da classe Shape
 **Bloaters (Large Class)** A classe Shape viola vários princípios SOLID e por ser uma Large Class dificulta a sua expansão e manutenção, logo, seria melhor criar as classes Rectangle e Circle, derivadas de Shape e esta passava a ser abstrata
 
@@ -45,9 +47,11 @@ Object-Orientation Abusers - Switch Statements
 - Na função getTotal, da classe SimpleOrder, alterar o if statement com o NULL, usando para isso o Refactoring Introduce Null Object.
 
 (João Rocha)
+
 Não seria mais simples separar a classe Discount em DiscountFixed e DiscountPercentange? Andar com fixed = 0 ou percentage = 0 não me parece a solução mais clara, especialmente para uma futura manutenção.
 
 (Eduardo Correia)
+
 **Object-Orientation Abusers (Switch Statements -> Extract Class)** O if...else em ApplyDiscount pode ser simplificado, retirando o else desnecessário
 **Dispensable (Dead Code)** É possivel remover o *assignment* de discountedPrice, executando de logo o return em vez de igualar a uma variável de "resultado"
 
