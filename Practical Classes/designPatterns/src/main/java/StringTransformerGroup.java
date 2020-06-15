@@ -7,11 +7,11 @@ public class StringTransformerGroup implements StringTransformer {
         this.transformers = transformers;
     }
 
+    @Override
     public void execute(StringDrink drink) {
         for (StringTransformer strTrans : transformers) {
             strTrans.execute(drink);
         }
-        drink.setText(drink.getText());
     }
 
 

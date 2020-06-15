@@ -1,12 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Bar {
+public class Bar {
     private boolean happyHour;
     private List<BarObserver> observers;
 
     public Bar() {
-        this.happyHour = false;
         this.observers = new ArrayList<>();
     }
 
@@ -20,7 +19,7 @@ public abstract class Bar {
     }
 
     public void endHappyHour() {
-        this.happyHour = true;
+        this.happyHour = false;
         notifyObservers();
     }
 

@@ -1,8 +1,6 @@
 public class RomulanClient extends AlienClient {
-    public RomulanClient() {
-        super();
-    }
 
+    @Override
     protected OrderingStrategy createOrderingStrategy() {
         ImpatientStrategy is = new ImpatientStrategy();
         return is;

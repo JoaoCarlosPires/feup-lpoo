@@ -12,7 +12,6 @@ public class StringRecipe {
         for (StringTransformer strTrans : strings) {
             strTrans.execute(drink);
         }
-        drink.setText(drink.getText());
     }
 
 }

@@ -1,11 +1,12 @@
 public class StringReplacer implements StringTransformer{
-    private Character oldChar, newChar;
+    private char oldChar, newChar;
 
     public StringReplacer(Character char1, Character char2) {
         this.oldChar = char1;
         this.newChar = char2;
     }
 
+    @Override
     public void execute(StringDrink drink) {
 
         StringBuffer strNew = new StringBuffer(drink.getText());
@@ -19,6 +20,5 @@ public class StringReplacer implements StringTransformer{
 
         drink.setText(strNew.toString());
 
-       // drink.getText().replace(newChar, oldChar);
     }
 }

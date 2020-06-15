@@ -1,8 +1,6 @@
 public class StringInverter implements StringTransformer {
 
-    public StringInverter() {
-    }
-
+    @Override
     public void execute(StringDrink drink) {
         StringBuffer strNew = new StringBuffer(drink.getText());
         strNew.reverse();

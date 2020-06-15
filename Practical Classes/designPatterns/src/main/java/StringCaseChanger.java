@@ -1,10 +1,7 @@
 public class StringCaseChanger implements StringTransformer{
 
-    public StringCaseChanger() {
-    }
-
+    @Override
     public void execute(StringDrink drink) {
-
         StringBuffer strNew = new StringBuffer(drink.getText());
         int ln = strNew.length();
 

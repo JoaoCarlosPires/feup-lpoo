@@ -1,19 +1,35 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class SmartStrategy implements OrderingStrategy {
     private List<StringDrink> drinks;
+    private List<StringRecipe> recipes;
+
     public SmartStrategy() {
+        drinks = new ArrayList<>();
+        recipes = new ArrayList<>();
     }
 
+    @Override
     public void wants(StringDrink drink, StringRecipe recipe, StringBar bar) {
-        drinks.add(drink);
-        if (bar.isHappyHour()) {
-            for (StringDrink drinks : drinks)
-                recipe.mix(drinks);
-            drinks.clear();
+        if (bar.isHappyHour())
+            bar.order(drink, recipe);
+        else {
+            drinks.add(drink);
+            recipes.add(recipe);
         }
     }
 
-    public void happyHourStarted(StringBar bar) {bar.endHappyHour();}
-    public void happyHourEnded(StringBar bar) {bar.endHappyHour();}
+    @Override
+    public void happyHourStarted(StringBar bar) {
+        for (int i = 0; i < drinks.size(); i++)
+            bar.order(drinks.get(i), recipes.get(i));
+        drinks.clear();
+        recipes.clear();
+    }
+
+    @Override
+    public void happyHourEnded(StringBar bar) {
+
+    }
 }
